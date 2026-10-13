@@ -1,0 +1,1738 @@
+{
+  "_note": "Illustrative, editable example datasets written for this hackathon MVP. They are NOT official industry standards or validated job requirements.",
+  "careers": [
+    {
+      "id": "fullstack",
+      "title": "Full Stack Developer",
+      "tagline": "Build complete web products, from interface to database.",
+      "overview": "A full stack developer designs and builds both the user-facing side of a web application and the server, database and APIs behind it. The role rewards breadth: you need to be comfortable moving between UI, business logic, data storage and deployment.",
+      "requirements": [
+        {
+          "skillId": "html-css",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 1,
+          "effortHours": 12,
+          "why": "Every web interface is built on semantic HTML and responsive CSS; weak fundamentals slow down all frontend work.",
+          "learningTopic": "Semantic HTML5, Flexbox/Grid, responsive layouts, accessibility basics",
+          "exercise": "Rebuild a landing page from a screenshot using plain HTML/CSS, responsive at three breakpoints."
+        },
+        {
+          "skillId": "javascript",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 2,
+          "effortHours": 20,
+          "why": "JavaScript is the shared language of browser code and, through Node.js, of many backends.",
+          "learningTopic": "Modern ES6+ syntax, async/await, DOM manipulation, fetch API",
+          "exercise": "Build a task manager that loads data from a public API and handles loading and error states."
+        },
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 3,
+          "effortHours": 6,
+          "why": "Teams collaborate through version control, and a GitHub profile lets reviewers see your work.",
+          "learningTopic": "Branching, pull requests, resolving merge conflicts",
+          "exercise": "Publish two projects with READMEs and open a pull request against your own repository."
+        },
+        {
+          "skillId": "react",
+          "importance": "high",
+          "tier": "core",
+          "order": 4,
+          "effortHours": 25,
+          "why": "React is one of the most widely used UI libraries, and component-based thinking is a common interview topic.",
+          "learningTopic": "Components, props and state, hooks, client-side routing",
+          "exercise": "Build a multi-page expense tracker with form validation and state that survives a refresh."
+        },
+        {
+          "skillId": "nodejs",
+          "importance": "high",
+          "tier": "core",
+          "order": 5,
+          "effortHours": 18,
+          "why": "A server runtime lets you write the backend logic and APIs your frontend depends on.",
+          "learningTopic": "Node.js runtime, Express routing, middleware, environment configuration",
+          "exercise": "Create an Express API with four CRUD routes and request validation."
+        },
+        {
+          "skillId": "rest-apis",
+          "importance": "high",
+          "tier": "core",
+          "order": 6,
+          "effortHours": 10,
+          "why": "Frontend and backend talk through APIs, so clear API design affects every integration you build.",
+          "learningTopic": "REST conventions, HTTP status codes, JSON contracts, API documentation",
+          "exercise": "Design and document a REST API for a library system and test it with curl or Postman."
+        },
+        {
+          "skillId": "sql",
+          "importance": "high",
+          "tier": "core",
+          "order": 7,
+          "effortHours": 16,
+          "why": "Most applications store relational data, and SQL is needed for schema design and queries.",
+          "learningTopic": "Relational modelling, joins, indexes, normalization",
+          "exercise": "Model a bookstore with five tables and write ten queries using joins and aggregates."
+        },
+        {
+          "skillId": "nosql",
+          "importance": "medium",
+          "tier": "core",
+          "order": 8,
+          "effortHours": 10,
+          "why": "Document databases suit flexible-schema data, and knowing when to choose one is a design skill.",
+          "learningTopic": "Document modelling, CRUD operations and indexing in a document database",
+          "exercise": "Re-implement one feature of your API on a document database and compare it with the SQL version."
+        },
+        {
+          "skillId": "authentication",
+          "importance": "high",
+          "tier": "advanced",
+          "order": 9,
+          "effortHours": 12,
+          "why": "Most real applications have user accounts, and insecure authentication is a frequent source of vulnerabilities.",
+          "learningTopic": "Password hashing, sessions versus tokens, OAuth basics",
+          "exercise": "Add register, login and logout with hashed passwords and protected routes to one of your apps."
+        },
+        {
+          "skillId": "docker-deploy",
+          "importance": "medium",
+          "tier": "advanced",
+          "order": 10,
+          "effortHours": 12,
+          "why": "Deploying an app shows it works beyond your laptop and is a common expectation for internships.",
+          "learningTopic": "Environment variables, Docker basics, free-tier cloud hosting, simple CI",
+          "exercise": "Containerize a project and deploy it to a free-tier host so it has a live URL."
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "problem-solving",
+          "why": "Debugging across the full stack means narrowing down which layer is failing."
+        },
+        {
+          "skillId": "teamwork",
+          "why": "Product work is collaborative, with design, backend and QA colleagues."
+        },
+        {
+          "skillId": "communication",
+          "why": "You need to explain trade-offs and status to technical and non-technical people."
+        },
+        {
+          "skillId": "continuous-learning",
+          "why": "Frameworks and tooling change quickly."
+        },
+        {
+          "skillId": "time-management",
+          "why": "Shipping features means estimating and sequencing work."
+        }
+      ],
+      "projects": [
+        {
+          "id": "fs-project-1",
+          "title": "Task and expense tracker with accounts",
+          "skillIds": [
+            "react",
+            "nodejs",
+            "authentication",
+            "sql"
+          ],
+          "description": "A React frontend with an Express API, user login and a relational database.",
+          "deliverable": "Public repository, README with setup steps, and a short demo video.",
+          "effortHours": 30
+        },
+        {
+          "id": "fs-project-2",
+          "title": "REST API with a document database",
+          "skillIds": [
+            "nodejs",
+            "rest-apis",
+            "nosql"
+          ],
+          "description": "A documented API (for example a blog or event board) backed by a document database.",
+          "deliverable": "API documentation page and a test collection that exercises every route.",
+          "effortHours": 18
+        },
+        {
+          "id": "fs-project-3",
+          "title": "Deployed portfolio with a live backend",
+          "skillIds": [
+            "html-css",
+            "javascript",
+            "docker-deploy",
+            "git-github"
+          ],
+          "description": "A responsive portfolio that reads its project list from your own API and is deployed with a live URL.",
+          "deliverable": "Live URL, repository, and a containerized build.",
+          "effortHours": 20
+        }
+      ],
+      "certifications": [
+        {
+          "name": "freeCodeCamp Responsive Web Design / JavaScript certifications",
+          "type": "learning path"
+        },
+        {
+          "name": "MongoDB University introductory courses",
+          "type": "learning path"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "type": "certification"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "HTML, CSS, JavaScript and Git so you can build and publish small interfaces."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "A UI framework, a server runtime, APIs and a database."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two or three complete projects with accounts, data and a live deployment."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Resume, GitHub polish, practice interviews and internship applications."
+        }
+      ]
+    },
+    {
+      "id": "datascientist",
+      "title": "Data Scientist",
+      "tagline": "Turn raw data into models and decisions.",
+      "overview": "A data scientist collects and cleans data, explores it statistically, builds predictive models and communicates the results. The role combines programming, statistics and domain judgement, and often involves handing models over so that others can use them.",
+      "requirements": [
+        {
+          "skillId": "python",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 1,
+          "effortHours": 20,
+          "why": "Python is the main language of the data ecosystem; most libraries and tutorials assume it.",
+          "learningTopic": "Python syntax, data structures, functions, virtual environments",
+          "exercise": "Write a command-line script that reads a CSV, cleans it and prints a summary."
+        },
+        {
+          "skillId": "statistics",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 2,
+          "effortHours": 25,
+          "why": "Statistics lets you judge whether a pattern is real, and it underpins model evaluation and experiments.",
+          "learningTopic": "Descriptive statistics, distributions, hypothesis testing, confidence intervals",
+          "exercise": "Analyze an A/B-style public dataset and write a one-page interpretation of the result."
+        },
+        {
+          "skillId": "sql",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 3,
+          "effortHours": 16,
+          "why": "Data usually lives in databases, and you will often need to extract it yourself.",
+          "learningTopic": "SELECT queries, joins, grouping, window functions",
+          "exercise": "Answer ten business questions against a sample sales database using SQL only."
+        },
+        {
+          "skillId": "git-github",
+          "importance": "medium",
+          "tier": "foundation",
+          "order": 4,
+          "effortHours": 6,
+          "why": "Versioned, shareable work makes analysis reproducible and visible to reviewers.",
+          "learningTopic": "Commits, branches, pull requests, keeping notebooks readable in version control",
+          "exercise": "Publish an analysis repository with a README that lets another person rerun it."
+        },
+        {
+          "skillId": "pandas-numpy",
+          "importance": "high",
+          "tier": "core",
+          "order": 5,
+          "effortHours": 18,
+          "why": "These libraries are the everyday tools for manipulating tabular and numeric data.",
+          "learningTopic": "DataFrames, indexing, group-by, merging, vectorized operations",
+          "exercise": "Reproduce a spreadsheet report using only pandas and verify the numbers match."
+        },
+        {
+          "skillId": "data-cleaning-eda",
+          "importance": "high",
+          "tier": "core",
+          "order": 6,
+          "effortHours": 14,
+          "why": "Real data is messy, and decisions about missing values and outliers shape every later result.",
+          "learningTopic": "Missing values, outliers, encoding, exploratory data analysis workflow",
+          "exercise": "Take a messy public dataset, document each cleaning decision and justify it."
+        },
+        {
+          "skillId": "data-visualization",
+          "importance": "medium",
+          "tier": "core",
+          "order": 7,
+          "effortHours": 12,
+          "why": "Clear charts are how findings reach people who will not read your code.",
+          "learningTopic": "Choosing chart types, plotting libraries, dashboard basics",
+          "exercise": "Build a small dashboard that answers three specific questions about one dataset."
+        },
+        {
+          "skillId": "machine-learning",
+          "importance": "high",
+          "tier": "core",
+          "order": 8,
+          "effortHours": 30,
+          "why": "Predictive modelling is the central technical skill of the role.",
+          "learningTopic": "Train/test splits, regression, classification, cross-validation, metrics",
+          "exercise": "Build and compare two models on a public dataset and explain which one you would use and why."
+        },
+        {
+          "skillId": "deep-learning",
+          "importance": "medium",
+          "tier": "advanced",
+          "order": 9,
+          "effortHours": 30,
+          "why": "Neural networks are used for images, text and other unstructured data.",
+          "learningTopic": "Neural network basics, a deep learning framework, overfitting and regularization",
+          "exercise": "Train a small image or text classifier and report its limitations honestly."
+        },
+        {
+          "skillId": "model-deployment",
+          "importance": "medium",
+          "tier": "advanced",
+          "order": 10,
+          "effortHours": 14,
+          "why": "A model only creates value when someone can use it, so deployment skills make you more self-sufficient.",
+          "learningTopic": "Saving models, simple prediction APIs or apps, basic monitoring ideas",
+          "exercise": "Wrap one of your trained models in a small web app or API and document how to run it."
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "critical-thinking",
+          "why": "You must question data quality, assumptions and whether a result is meaningful."
+        },
+        {
+          "skillId": "communication",
+          "why": "Findings only matter if stakeholders understand them."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "why": "Small data errors can silently invalidate a model."
+        },
+        {
+          "skillId": "problem-solving",
+          "why": "Business questions must be translated into analysable problems."
+        },
+        {
+          "skillId": "continuous-learning",
+          "why": "Methods and libraries evolve quickly."
+        }
+      ],
+      "projects": [
+        {
+          "id": "ds-project-1",
+          "title": "End-to-end exploratory analysis",
+          "skillIds": [
+            "python",
+            "pandas-numpy",
+            "data-cleaning-eda",
+            "data-visualization"
+          ],
+          "description": "Clean and explore a real public dataset and present the key findings.",
+          "deliverable": "Notebook or report with documented cleaning steps and at least four labelled charts.",
+          "effortHours": 20
+        },
+        {
+          "id": "ds-project-2",
+          "title": "Predictive model with honest evaluation",
+          "skillIds": [
+            "machine-learning",
+            "statistics",
+            "python"
+          ],
+          "description": "Build, validate and compare models for a prediction problem, including error analysis.",
+          "deliverable": "Repository with reproducible training code and an evaluation write-up.",
+          "effortHours": 28
+        },
+        {
+          "id": "ds-project-3",
+          "title": "Deployed prediction app",
+          "skillIds": [
+            "model-deployment",
+            "machine-learning",
+            "git-github"
+          ],
+          "description": "Serve a trained model through a small web app that others can try.",
+          "deliverable": "Running app, repository and short usage guide.",
+          "effortHours": 16
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "type": "certification"
+        },
+        {
+          "name": "Introductory machine learning courses from university or MOOC providers",
+          "type": "learning path"
+        },
+        {
+          "name": "Kaggle Learn micro-courses (Pandas, Intro to ML, Data Visualization)",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Python, statistics and SQL so you can load and describe data."
+        },
+        {
+          "phase": "Core toolkit",
+          "summary": "Data wrangling, exploration, visualization and classical machine learning."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two or three projects that show a full analysis from raw data to conclusion."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Case-study practice, resume and GitHub polish, and internship applications."
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity Analyst",
+      "tagline": "Detect, investigate and reduce security risk.",
+      "overview": "A cybersecurity analyst monitors systems for threats, assesses vulnerabilities, investigates incidents and helps teams fix weaknesses. The work depends on strong networking and operating-system fundamentals plus careful, ethical analysis.",
+      "requirements": [
+        {
+          "skillId": "networking",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 1,
+          "effortHours": 20,
+          "why": "Most attacks and defences operate over networks, so you must understand normal traffic to spot abnormal traffic.",
+          "learningTopic": "OSI/TCP-IP models, IP addressing, DNS, common protocols, packet inspection basics",
+          "exercise": "Capture traffic on your own lab network and explain three different protocol exchanges."
+        },
+        {
+          "skillId": "linux",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 2,
+          "effortHours": 16,
+          "why": "Servers and security tools commonly run on Linux, and the command line is the analyst's workbench.",
+          "learningTopic": "File system, permissions, processes, shell scripting basics",
+          "exercise": "Set up a virtual machine and complete a set of command-line challenges, noting each command you used."
+        },
+        {
+          "skillId": "security-fundamentals",
+          "importance": "high",
+          "tier": "foundation",
+          "order": 3,
+          "effortHours": 18,
+          "why": "Core concepts such as confidentiality, integrity, availability and least privilege frame every decision.",
+          "learningTopic": "CIA triad, common attack types, risk basics, defence in depth",
+          "exercise": "Write a short threat model for a simple web application and rank its top five risks."
+        },
+        {
+          "skillId": "python",
+          "importance": "medium",
+          "tier": "core",
+          "order": 4,
+          "effortHours": 16,
+          "why": "Scripting automates repetitive analysis such as parsing logs or scanning for indicators.",
+          "learningTopic": "Python basics, file handling, regular expressions, working with network libraries",
+          "exercise": "Write a script that parses an authentication log and reports repeated failed logins."
+        },
+        {
+          "skillId": "cryptography",
+          "importance": "medium",
+          "tier": "core",
+          "order": 5,
+          "effortHours": 12,
+          "why": "Encryption and hashing protect data, and misuse of them is a common weakness.",
+          "learningTopic": "Symmetric versus asymmetric encryption, hashing, certificates and TLS",
+          "exercise": "Inspect a website's TLS certificate chain and explain what each part guarantees."
+        },
+        {
+          "skillId": "web-security",
+          "importance": "high",
+          "tier": "core",
+          "order": 6,
+          "effortHours": 20,
+          "why": "Web applications are a frequent target, and common flaws are well documented and teachable.",
+          "learningTopic": "Common web vulnerability classes and how to prevent them",
+          "exercise": "Work through a deliberately vulnerable practice application in a safe lab and write up each finding."
+        },
+        {
+          "skillId": "vuln-assessment",
+          "importance": "high",
+          "tier": "core",
+          "order": 7,
+          "effortHours": 18,
+          "why": "Finding and prioritizing weaknesses before attackers do is a core analyst task.",
+          "learningTopic": "Scanning methodology, interpreting scanner output, severity and prioritization",
+          "exercise": "Scan a lab machine you own, then produce a prioritized remediation report."
+        },
+        {
+          "skillId": "siem-logs",
+          "importance": "high",
+          "tier": "advanced",
+          "order": 8,
+          "effortHours": 20,
+          "why": "Analysts spend much of their time reading logs and alerts to separate real threats from noise.",
+          "learningTopic": "Log sources, correlation, writing simple detection queries",
+          "exercise": "Ingest sample logs into a free SIEM or log tool and build two alerts with written rationale."
+        },
+        {
+          "skillId": "incident-response",
+          "importance": "high",
+          "tier": "advanced",
+          "order": 9,
+          "effortHours": 16,
+          "why": "When something goes wrong, a clear process limits damage and preserves evidence.",
+          "learningTopic": "Incident lifecycle, triage, containment, evidence handling, reporting",
+          "exercise": "Run a tabletop exercise on a simulated phishing incident and write the incident report."
+        },
+        {
+          "skillId": "cloud-security",
+          "importance": "medium",
+          "tier": "advanced",
+          "order": 10,
+          "effortHours": 14,
+          "why": "More systems run in the cloud, where identity and configuration mistakes cause many incidents.",
+          "learningTopic": "Shared responsibility model, identity and access management, secure configuration",
+          "exercise": "Review a free-tier cloud account's permissions and write a least-privilege improvement plan."
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "attention-to-detail",
+          "why": "A single missed log line or misread configuration can hide an incident."
+        },
+        {
+          "skillId": "ethics-integrity",
+          "why": "Analysts handle sensitive access and must act within clear legal and ethical limits."
+        },
+        {
+          "skillId": "problem-solving",
+          "why": "Investigations involve forming and testing hypotheses from partial evidence."
+        },
+        {
+          "skillId": "communication",
+          "why": "Findings must be explained clearly to technical and non-technical readers."
+        },
+        {
+          "skillId": "continuous-learning",
+          "why": "Threats and tools change constantly."
+        }
+      ],
+      "projects": [
+        {
+          "id": "cs-project-1",
+          "title": "Home security lab",
+          "skillIds": [
+            "networking",
+            "linux",
+            "vuln-assessment"
+          ],
+          "description": "A virtual lab with a target machine and scanning workstation used for safe, authorized practice.",
+          "deliverable": "Lab documentation and a prioritized vulnerability report.",
+          "effortHours": 20
+        },
+        {
+          "id": "cs-project-2",
+          "title": "Log analysis and alerting",
+          "skillIds": [
+            "siem-logs",
+            "python",
+            "incident-response"
+          ],
+          "description": "Parse sample logs, detect suspicious patterns and document an incident investigation.",
+          "deliverable": "Detection script or queries plus an incident report.",
+          "effortHours": 22
+        },
+        {
+          "id": "cs-project-3",
+          "title": "Web application security review",
+          "skillIds": [
+            "web-security",
+            "cryptography",
+            "security-fundamentals"
+          ],
+          "description": "Assess a deliberately vulnerable application in a safe lab and recommend fixes.",
+          "deliverable": "Findings report with evidence and remediation advice.",
+          "effortHours": 20
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "type": "certification"
+        },
+        {
+          "name": "Cisco Networking Academy introductory networking courses",
+          "type": "learning path"
+        },
+        {
+          "name": "Hands-on practice labs on public training platforms",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Networking, Linux and core security concepts."
+        },
+        {
+          "phase": "Core skills",
+          "summary": "Scripting, web security and vulnerability assessment in a safe lab."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Written lab reports and an incident investigation you can show."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Certification study, interview practice and internship applications."
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "tagline": "Turn designs into fast, accessible interfaces people enjoy using.",
+      "overview": "A frontend developer builds everything a user sees and touches in a browser. The role rewards attention to detail: layouts that adapt to every screen, interfaces usable with a keyboard or screen reader, and pages that load quickly.",
+      "requirements": [
+        {
+          "skillId": "html-css",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 12,
+          "why": "Semantic markup and responsive layout are the base of every interface.",
+          "learningTopic": "Semantic HTML, Flexbox/Grid, responsive design",
+          "exercise": "Rebuild a landing page from a screenshot at three breakpoints.",
+          "order": 1
+        },
+        {
+          "skillId": "javascript",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 20,
+          "why": "JavaScript drives all interactivity in the browser.",
+          "learningTopic": "ES6+, async/await, DOM, fetch",
+          "exercise": "Build a weather app that handles loading and error states.",
+          "order": 2
+        },
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 6,
+          "why": "Teams review and ship frontend work through pull requests.",
+          "learningTopic": "Branches, pull requests, resolving conflicts",
+          "exercise": "Contribute a small fix to an open-source repository.",
+          "order": 3
+        },
+        {
+          "skillId": "react",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 25,
+          "why": "Component frameworks are the standard way frontends are built.",
+          "learningTopic": "Components, state, hooks, routing",
+          "exercise": "Build a multi-page app with routing and shared state.",
+          "order": 4
+        },
+        {
+          "skillId": "rest-apis",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Almost every interface reads and writes data through an API.",
+          "learningTopic": "Fetching data, caching, error handling",
+          "exercise": "Add a search page powered by a public API.",
+          "order": 5
+        },
+        {
+          "skillId": "ui-design",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Understanding layout, spacing and hierarchy lets you build interfaces that look right.",
+          "learningTopic": "Design basics, Figma handoff, design systems",
+          "exercise": "Recreate a Figma design pixel-accurately and note any ambiguities.",
+          "order": 6
+        },
+        {
+          "skillId": "accessibility",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 8,
+          "why": "Accessible interfaces reach more users and are often a legal requirement.",
+          "learningTopic": "Semantic elements, ARIA, focus management, contrast",
+          "exercise": "Audit one of your pages with a screen reader and fix five issues.",
+          "order": 7
+        },
+        {
+          "skillId": "web-performance",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "Slow pages lose users; performance work is a visible skill.",
+          "learningTopic": "Lighthouse, image optimization, code splitting",
+          "exercise": "Raise a page's Lighthouse performance score and document what changed.",
+          "order": 8
+        },
+        {
+          "skillId": "testing-basics",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "Tests keep UI changes from breaking existing behaviour.",
+          "learningTopic": "Component tests, test-driven basics",
+          "exercise": "Write tests for a form component covering valid and invalid input.",
+          "order": 9
+        },
+        {
+          "skillId": "cicd-pipelines",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 8,
+          "why": "Automated build and deploy pipelines are expected in most teams.",
+          "learningTopic": "GitHub Actions, preview deployments",
+          "exercise": "Set up a pipeline that tests and deploys a site on every push.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "communication",
+          "why": "You explain design and technical trade-offs to designers and product managers."
+        },
+        {
+          "skillId": "teamwork",
+          "why": "Frontend work sits between design, backend and QA."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "why": "Small spacing and state bugs are what users notice first."
+        },
+        {
+          "skillId": "continuous-learning",
+          "why": "Frameworks and browser features change quickly."
+        },
+        {
+          "skillId": "problem-solving",
+          "why": "Cross-browser and state bugs need systematic debugging."
+        }
+      ],
+      "projects": [
+        {
+          "id": "fe-project-1",
+          "title": "Accessible dashboard with live data",
+          "skillIds": [
+            "react",
+            "rest-apis",
+            "accessibility"
+          ],
+          "description": "A responsive dashboard that loads data from a public API and works with keyboard and screen reader.",
+          "deliverable": "Live site, repository and an accessibility checklist.",
+          "effortHours": 25
+        },
+        {
+          "id": "fe-project-2",
+          "title": "Component library with tests",
+          "skillIds": [
+            "react",
+            "testing-basics",
+            "ui-design"
+          ],
+          "description": "Build 8-10 reusable components with documentation and tests.",
+          "deliverable": "Published storybook-style page and test results.",
+          "effortHours": 20
+        }
+      ],
+      "certifications": [
+        {
+          "name": "freeCodeCamp Responsive Web Design",
+          "type": "learning path"
+        },
+        {
+          "name": "Meta Front-End Developer Professional Certificate",
+          "type": "learning path"
+        },
+        {
+          "name": "Google UX Design Certificate (optional)",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "HTML, CSS, JavaScript and Git for building responsive pages."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "A UI framework, API data fetching, accessibility and design handoff."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Three polished projects with live links and tests."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Portfolio, GitHub polish, mock interviews and applications."
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend Developer",
+      "tagline": "Build the servers, APIs and databases that power products.",
+      "overview": "A backend developer designs the server-side logic, data storage and APIs behind an application. The role rewards careful thinking about data, security and what happens when many users arrive at once.",
+      "requirements": [
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 6,
+          "why": "All server code is reviewed and shipped through version control.",
+          "learningTopic": "Branching, pull requests, code review",
+          "exercise": "Open a pull request on a shared repository and respond to review.",
+          "order": 1
+        },
+        {
+          "skillId": "nodejs",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 20,
+          "why": "A server runtime is where API logic lives.",
+          "learningTopic": "Node.js, Express, modules, async patterns",
+          "exercise": "Build a small API with five endpoints.",
+          "order": 2
+        },
+        {
+          "skillId": "rest-apis",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 12,
+          "why": "APIs are the contract between backend and every client.",
+          "learningTopic": "Resource design, status codes, validation, versioning",
+          "exercise": "Document an API with an OpenAPI page and example requests.",
+          "order": 3
+        },
+        {
+          "skillId": "sql",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 15,
+          "why": "Most products store core data in relational databases.",
+          "learningTopic": "Joins, aggregations, transactions",
+          "exercise": "Model a shop schema and answer ten business questions in SQL.",
+          "order": 4
+        },
+        {
+          "skillId": "database-design",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Good schemas and indexes decide how well an app scales.",
+          "learningTopic": "Normalization, indexing, migrations, ORMs",
+          "exercise": "Redesign a slow schema and show query timings before and after.",
+          "order": 5
+        },
+        {
+          "skillId": "nosql",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 8,
+          "why": "Document and key-value stores suit some workloads.",
+          "learningTopic": "Document modelling, when not to use SQL",
+          "exercise": "Store the same data in SQL and a document database and compare.",
+          "order": 6
+        },
+        {
+          "skillId": "authentication",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Securing users and sessions is a core backend duty.",
+          "learningTopic": "Password hashing, sessions, JWT, OAuth basics",
+          "exercise": "Add sign-up, login and protected routes to an API.",
+          "order": 7
+        },
+        {
+          "skillId": "testing-basics",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Automated tests make backend changes safe.",
+          "learningTopic": "Unit and integration tests, mocking",
+          "exercise": "Reach meaningful test coverage on an API's core routes.",
+          "order": 8
+        },
+        {
+          "skillId": "system-design",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 15,
+          "why": "Scaling, caching and queues come up in every senior discussion and many interviews.",
+          "learningTopic": "Caching, queues, load balancing, trade-offs",
+          "exercise": "Design a URL shortener on paper and justify each component.",
+          "order": 9
+        },
+        {
+          "skillId": "docker-deploy",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 12,
+          "why": "Shipping a running service shows it works beyond your laptop.",
+          "learningTopic": "Containers, environment config, free-tier hosting",
+          "exercise": "Containerize an API and deploy it with a live URL.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "problem-solving",
+          "why": "Debugging production issues means isolating the failing component."
+        },
+        {
+          "skillId": "documentation",
+          "why": "Other teams depend on your API docs."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "why": "Data and security bugs are expensive."
+        },
+        {
+          "skillId": "teamwork",
+          "why": "Backend work is coordinated with frontend, data and DevOps."
+        },
+        {
+          "skillId": "continuous-learning",
+          "why": "Tooling and best practice evolve constantly."
+        }
+      ],
+      "projects": [
+        {
+          "id": "be-project-1",
+          "title": "Authenticated REST API with tests",
+          "skillIds": [
+            "nodejs",
+            "rest-apis",
+            "authentication",
+            "testing-basics"
+          ],
+          "description": "A documented API with user accounts, validation and automated tests.",
+          "deliverable": "Repository, API docs and a passing test run.",
+          "effortHours": 28
+        },
+        {
+          "id": "be-project-2",
+          "title": "Scalable schema case study",
+          "skillIds": [
+            "sql",
+            "database-design",
+            "system-design"
+          ],
+          "description": "Design and benchmark a database for an e-commerce workload.",
+          "deliverable": "Schema diagram, migration scripts and a short write-up.",
+          "effortHours": 18
+        }
+      ],
+      "certifications": [
+        {
+          "name": "MongoDB University introductory courses",
+          "type": "learning path"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "type": "certification"
+        },
+        {
+          "name": "Meta Back-End Developer Certificate",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Git, a server runtime and REST API basics."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "Databases, authentication and testing."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two deployed APIs with documentation and tests."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "System design practice, resume and interview preparation."
+        }
+      ]
+    },
+    {
+      "id": "dataanalyst",
+      "title": "Data Analyst",
+      "tagline": "Turn raw numbers into clear answers that teams act on.",
+      "overview": "A data analyst collects, cleans and interprets data to answer business questions. The role rewards curiosity and clear communication: finding the pattern, checking it is real and explaining it simply.",
+      "requirements": [
+        {
+          "skillId": "excel-analytics",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 12,
+          "why": "Spreadsheets are the first tool in most analyst workflows.",
+          "learningTopic": "Pivot tables, lookups, formulas, charts",
+          "exercise": "Analyse a sales dataset entirely in a spreadsheet and summarise three findings.",
+          "order": 1
+        },
+        {
+          "skillId": "sql",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 18,
+          "why": "Analysts pull their own data from databases.",
+          "learningTopic": "Joins, window functions, aggregations",
+          "exercise": "Answer 15 business questions on a public sample database.",
+          "order": 2
+        },
+        {
+          "skillId": "statistics",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 15,
+          "why": "Statistics tell you whether a pattern is real.",
+          "learningTopic": "Descriptive statistics, distributions, hypothesis tests",
+          "exercise": "Run and explain an A/B test on sample data.",
+          "order": 3
+        },
+        {
+          "skillId": "python",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 20,
+          "why": "Python scales analysis beyond spreadsheets.",
+          "learningTopic": "Syntax, functions, notebooks",
+          "exercise": "Automate a weekly report with a script.",
+          "order": 4
+        },
+        {
+          "skillId": "pandas-numpy",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 15,
+          "why": "Pandas is the standard table-handling library.",
+          "learningTopic": "DataFrames, groupby, merges",
+          "exercise": "Clean and combine three CSV files into one tidy table.",
+          "order": 5
+        },
+        {
+          "skillId": "data-cleaning-eda",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Most analysis time goes into preparing and exploring data.",
+          "learningTopic": "Missing values, outliers, exploration",
+          "exercise": "Produce an EDA notebook with a short list of data-quality issues.",
+          "order": 6
+        },
+        {
+          "skillId": "data-visualization",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Charts are how findings reach decision makers.",
+          "learningTopic": "Chart choice, dashboards, storytelling",
+          "exercise": "Build a dashboard answering one stakeholder question.",
+          "order": 7
+        },
+        {
+          "skillId": "business-analysis",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Good analysis starts from the business question.",
+          "learningTopic": "KPIs, metrics, stakeholder questions",
+          "exercise": "Define five KPIs for a made-up product and justify each.",
+          "order": 8
+        },
+        {
+          "skillId": "git-github",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 6,
+          "why": "Version control keeps analyses reproducible.",
+          "learningTopic": "Commits, branches, README for analyses",
+          "exercise": "Publish an analysis repository with a clear README.",
+          "order": 9
+        },
+        {
+          "skillId": "machine-learning",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 15,
+          "why": "Basic modelling helps with forecasting and segmentation.",
+          "learningTopic": "Regression, classification, evaluation",
+          "exercise": "Build a simple forecast and report its error honestly.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "communication",
+          "why": "Findings only matter if stakeholders understand them."
+        },
+        {
+          "skillId": "critical-thinking",
+          "why": "You must question data quality and your own conclusions."
+        },
+        {
+          "skillId": "attention-to-detail",
+          "why": "One wrong join can change a result."
+        },
+        {
+          "skillId": "problem-solving",
+          "why": "Vague business questions need to be turned into analyses."
+        },
+        {
+          "skillId": "documentation",
+          "why": "Reproducible analyses need clear notes."
+        }
+      ],
+      "projects": [
+        {
+          "id": "da-project-1",
+          "title": "Business KPI dashboard",
+          "skillIds": [
+            "sql",
+            "data-visualization",
+            "business-analysis"
+          ],
+          "description": "A dashboard tracking five KPIs from a public dataset.",
+          "deliverable": "Dashboard link and a one-page insights summary.",
+          "effortHours": 20
+        },
+        {
+          "id": "da-project-2",
+          "title": "End-to-end analysis notebook",
+          "skillIds": [
+            "python",
+            "pandas-numpy",
+            "data-cleaning-eda",
+            "statistics"
+          ],
+          "description": "Clean, explore and analyse a real dataset and present findings.",
+          "deliverable": "Notebook plus a short presentation.",
+          "effortHours": 22
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Data Analytics Certificate",
+          "type": "learning path"
+        },
+        {
+          "name": "Microsoft Power BI / Tableau learning paths",
+          "type": "learning path"
+        },
+        {
+          "name": "Kaggle Learn micro-courses",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Spreadsheets, SQL and statistics."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "Python, pandas, cleaning and visualization."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two portfolio analyses with dashboards."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Case-study practice, resume and applications."
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps / Cloud Engineer",
+      "tagline": "Automate how software is built, shipped and kept running.",
+      "overview": "A DevOps or cloud engineer builds the pipelines, infrastructure and monitoring that let teams release software quickly and reliably. The role rewards comfort with Linux, automation and troubleshooting live systems.",
+      "requirements": [
+        {
+          "skillId": "linux",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 15,
+          "why": "Most servers and containers run Linux.",
+          "learningTopic": "Shell, permissions, processes, services",
+          "exercise": "Set up and harden a Linux VM using only the command line.",
+          "order": 1
+        },
+        {
+          "skillId": "networking",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 12,
+          "why": "Cloud problems are often network problems.",
+          "learningTopic": "TCP/IP, DNS, HTTP, firewalls",
+          "exercise": "Diagnose a broken connection step by step with standard tools.",
+          "order": 2
+        },
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 6,
+          "why": "Infrastructure and pipelines live in version control.",
+          "learningTopic": "Branching, pull requests, tagging",
+          "exercise": "Keep a project's config in Git with a clean history.",
+          "order": 3
+        },
+        {
+          "skillId": "docker-deploy",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 15,
+          "why": "Containers are the standard unit of deployment.",
+          "learningTopic": "Dockerfiles, images, compose, orchestration basics",
+          "exercise": "Containerize a two-service app and run it with compose.",
+          "order": 4
+        },
+        {
+          "skillId": "cicd-pipelines",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Automated pipelines make releases frequent and safe.",
+          "learningTopic": "GitHub Actions, build/test/deploy stages",
+          "exercise": "Build a pipeline that tests and deploys on merge.",
+          "order": 5
+        },
+        {
+          "skillId": "cloud-platforms",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 20,
+          "why": "Most infrastructure now lives in a public cloud.",
+          "learningTopic": "Compute, storage, networking, IAM on one provider",
+          "exercise": "Deploy a three-tier app on a free-tier cloud account.",
+          "order": 6
+        },
+        {
+          "skillId": "iac",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 15,
+          "why": "Repeatable infrastructure beats manual setup.",
+          "learningTopic": "Terraform or similar, state, modules",
+          "exercise": "Provision a small environment from code and destroy it cleanly.",
+          "order": 7
+        },
+        {
+          "skillId": "monitoring",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "You cannot run what you cannot see.",
+          "learningTopic": "Metrics, logs, dashboards, alerts",
+          "exercise": "Add dashboards and an alert to a running service.",
+          "order": 8
+        },
+        {
+          "skillId": "security-fundamentals",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "Secure defaults and secrets handling are part of the role.",
+          "learningTopic": "Least privilege, secrets, patching",
+          "exercise": "Review a pipeline for exposed secrets and fix them.",
+          "order": 9
+        },
+        {
+          "skillId": "python",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 12,
+          "why": "Scripting automates repetitive operations.",
+          "learningTopic": "Scripting, APIs, automation tasks",
+          "exercise": "Write a script that reports on cloud resources.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "problem-solving",
+          "why": "Outages demand calm, structured troubleshooting."
+        },
+        {
+          "skillId": "communication",
+          "why": "Incidents need clear updates for technical and non-technical people."
+        },
+        {
+          "skillId": "documentation",
+          "why": "Runbooks let others operate what you build."
+        },
+        {
+          "skillId": "teamwork",
+          "why": "You work between developers, security and operations."
+        },
+        {
+          "skillId": "adaptability",
+          "why": "Tooling and cloud services change often."
+        }
+      ],
+      "projects": [
+        {
+          "id": "do-project-1",
+          "title": "Pipeline-to-cloud deployment",
+          "skillIds": [
+            "cicd-pipelines",
+            "docker-deploy",
+            "cloud-platforms"
+          ],
+          "description": "A pipeline that builds, tests and deploys a containerised app to a cloud free tier.",
+          "deliverable": "Repository, pipeline run history and architecture diagram.",
+          "effortHours": 25
+        },
+        {
+          "id": "do-project-2",
+          "title": "Infrastructure as code with monitoring",
+          "skillIds": [
+            "iac",
+            "monitoring",
+            "linux"
+          ],
+          "description": "Provision infrastructure from code and add dashboards and alerts.",
+          "deliverable": "Code repository and screenshots of dashboards.",
+          "effortHours": 22
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "type": "certification"
+        },
+        {
+          "name": "HashiCorp Terraform Associate",
+          "type": "certification"
+        },
+        {
+          "name": "Certified Kubernetes learning paths (CKA preparation)",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Linux, networking and Git."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "Containers, pipelines and one cloud platform."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two automated deployments with infrastructure as code."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Certifications, incident practice and applications."
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "title": "Mobile App Developer",
+      "tagline": "Build apps people carry in their pockets.",
+      "overview": "A mobile developer builds apps for phones, either for one platform or across both. The role rewards attention to small screens, offline behaviour and the extra steps of publishing to an app store.",
+      "requirements": [
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 6,
+          "why": "Mobile projects are shared and reviewed through version control.",
+          "learningTopic": "Branches, pull requests",
+          "exercise": "Maintain an app repository with a clean history.",
+          "order": 1
+        },
+        {
+          "skillId": "dsa",
+          "importance": "medium",
+          "tier": "foundation",
+          "effortHours": 20,
+          "why": "Core data-structure knowledge helps in interviews and performance work.",
+          "learningTopic": "Arrays, maps, trees, complexity",
+          "exercise": "Solve 40 practice problems and note the patterns.",
+          "order": 2
+        },
+        {
+          "skillId": "ui-design",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Mobile interfaces need clear hierarchy on small screens.",
+          "learningTopic": "Layout, navigation patterns, design guidelines",
+          "exercise": "Redesign one screen of a popular app and justify your changes.",
+          "order": 3
+        },
+        {
+          "skillId": "mobile-android",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 30,
+          "why": "Android is the largest mobile platform.",
+          "learningTopic": "Kotlin, activities, layouts, lifecycle",
+          "exercise": "Build a notes app with local storage.",
+          "order": 4
+        },
+        {
+          "skillId": "mobile-cross",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 25,
+          "why": "Cross-platform tools reach both stores from one codebase.",
+          "learningTopic": "Flutter or React Native, widgets, navigation",
+          "exercise": "Rebuild one app with a cross-platform framework.",
+          "order": 5
+        },
+        {
+          "skillId": "rest-apis",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 10,
+          "why": "Most apps talk to servers.",
+          "learningTopic": "HTTP calls, JSON, error and offline handling",
+          "exercise": "Add live data and an offline fallback to an app.",
+          "order": 6
+        },
+        {
+          "skillId": "sql",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 8,
+          "why": "Local databases store offline data.",
+          "learningTopic": "SQLite basics, queries",
+          "exercise": "Store app data locally and sync it when online.",
+          "order": 7
+        },
+        {
+          "skillId": "authentication",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "Apps with accounts need safe sign-in.",
+          "learningTopic": "Tokens, secure storage, OAuth sign-in",
+          "exercise": "Add sign-in with secure token storage.",
+          "order": 8
+        },
+        {
+          "skillId": "testing-basics",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 8,
+          "why": "Tests catch device-specific regressions.",
+          "learningTopic": "Unit and UI tests",
+          "exercise": "Write tests for an app's core flow.",
+          "order": 9
+        },
+        {
+          "skillId": "app-publishing",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 8,
+          "why": "Shipping to a store is a distinct skill with its own rules.",
+          "learningTopic": "Signing, store listing, review guidelines",
+          "exercise": "Prepare a complete store listing and internal test release.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "attention-to-detail",
+          "why": "Small UI glitches stand out on a phone."
+        },
+        {
+          "skillId": "problem-solving",
+          "why": "Device and OS differences produce odd bugs."
+        },
+        {
+          "skillId": "adaptability",
+          "why": "Platform guidelines and SDKs change each year."
+        },
+        {
+          "skillId": "communication",
+          "why": "You coordinate with designers and backend teams."
+        },
+        {
+          "skillId": "time-management",
+          "why": "Store review adds fixed delays to plan around."
+        }
+      ],
+      "projects": [
+        {
+          "id": "mo-project-1",
+          "title": "Offline-first notes or habit app",
+          "skillIds": [
+            "mobile-android",
+            "sql",
+            "ui-design"
+          ],
+          "description": "An app that works without internet and syncs when online.",
+          "deliverable": "APK or test build, repository and demo video.",
+          "effortHours": 30
+        },
+        {
+          "id": "mo-project-2",
+          "title": "Cross-platform app with live API",
+          "skillIds": [
+            "mobile-cross",
+            "rest-apis",
+            "authentication"
+          ],
+          "description": "An app with sign-in and live data on both platforms.",
+          "deliverable": "Repository, demo video and store-style screenshots.",
+          "effortHours": 30
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Associate Android Developer learning path",
+          "type": "learning path"
+        },
+        {
+          "name": "Flutter / React Native official tutorials",
+          "type": "learning path"
+        },
+        {
+          "name": "Google Mobile Web / UX learning",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Git, data structures and a first language."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "One native stack, UI design and API integration."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two apps with demo videos, one on a test track."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Store listing practice, resume and applications."
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "title": "QA / Test Engineer",
+      "tagline": "Find problems before users do, and automate the checking.",
+      "overview": "A QA or test engineer plans and automates the checks that keep software reliable. The role rewards a questioning mindset: thinking of what could go wrong, then turning that into repeatable tests.",
+      "requirements": [
+        {
+          "skillId": "testing-basics",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 15,
+          "why": "Test design is the heart of the role.",
+          "learningTopic": "Test cases, boundary values, bug reports",
+          "exercise": "Write a test plan and ten bug reports for a public website.",
+          "order": 1
+        },
+        {
+          "skillId": "sql",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 10,
+          "why": "Testers verify data directly in databases.",
+          "learningTopic": "Queries, joins, data checks",
+          "exercise": "Validate application output against its database with queries.",
+          "order": 2
+        },
+        {
+          "skillId": "git-github",
+          "importance": "high",
+          "tier": "foundation",
+          "effortHours": 6,
+          "why": "Test code is code and lives in version control.",
+          "learningTopic": "Branches, pull requests",
+          "exercise": "Keep a test suite in a repository with reviewable commits.",
+          "order": 3
+        },
+        {
+          "skillId": "python",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 18,
+          "why": "A scripting language is needed for automation.",
+          "learningTopic": "Syntax, functions, test frameworks",
+          "exercise": "Write scripts that check a set of web pages.",
+          "order": 4
+        },
+        {
+          "skillId": "test-automation",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 20,
+          "why": "Automation turns one-time checks into regression safety.",
+          "learningTopic": "Selenium/Playwright/Cypress, page objects",
+          "exercise": "Automate a login-to-checkout flow end to end.",
+          "order": 5
+        },
+        {
+          "skillId": "api-testing",
+          "importance": "high",
+          "tier": "core",
+          "effortHours": 12,
+          "why": "Many defects are visible at the API layer first.",
+          "learningTopic": "Postman, assertions, test collections",
+          "exercise": "Build an API test collection with assertions for every route.",
+          "order": 6
+        },
+        {
+          "skillId": "cicd-pipelines",
+          "importance": "medium",
+          "tier": "core",
+          "effortHours": 8,
+          "why": "Tests deliver value when they run on every change.",
+          "learningTopic": "Running tests in pipelines",
+          "exercise": "Run your suite automatically on every push.",
+          "order": 7
+        },
+        {
+          "skillId": "web-security",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 10,
+          "why": "Basic security checks catch common high-impact bugs.",
+          "learningTopic": "OWASP Top 10, input validation",
+          "exercise": "Test a practice site for the top ten issues and report findings.",
+          "order": 8
+        },
+        {
+          "skillId": "web-performance",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 8,
+          "why": "Slow pages are bugs too.",
+          "learningTopic": "Lighthouse, load basics",
+          "exercise": "Measure a page and report three performance defects.",
+          "order": 9
+        },
+        {
+          "skillId": "linux",
+          "importance": "medium",
+          "tier": "advanced",
+          "effortHours": 8,
+          "why": "Test environments and logs are usually on Linux.",
+          "learningTopic": "Shell, logs, services",
+          "exercise": "Use the shell to find a failure cause in logs.",
+          "order": 10
+        }
+      ],
+      "softSkills": [
+        {
+          "skillId": "attention-to-detail",
+          "why": "Defects hide in small differences."
+        },
+        {
+          "skillId": "critical-thinking",
+          "why": "You must question what the software claims to do."
+        },
+        {
+          "skillId": "communication",
+          "why": "Clear bug reports speed up fixes."
+        },
+        {
+          "skillId": "documentation",
+          "why": "Test plans and results must be easy to follow."
+        },
+        {
+          "skillId": "teamwork",
+          "why": "You work daily with developers and product owners."
+        }
+      ],
+      "projects": [
+        {
+          "id": "qa-project-1",
+          "title": "End-to-end automation suite",
+          "skillIds": [
+            "test-automation",
+            "python",
+            "cicd-pipelines"
+          ],
+          "description": "Automate key user journeys of a public demo site and run them in a pipeline.",
+          "deliverable": "Repository, pipeline results and a test report.",
+          "effortHours": 25
+        },
+        {
+          "id": "qa-project-2",
+          "title": "API test collection with reports",
+          "skillIds": [
+            "api-testing",
+            "testing-basics",
+            "sql"
+          ],
+          "description": "Design and run API tests with data checks and clear reports.",
+          "deliverable": "Collection, results and a short quality summary.",
+          "effortHours": 15
+        }
+      ],
+      "certifications": [
+        {
+          "name": "ISTQB Foundation Level",
+          "type": "certification"
+        },
+        {
+          "name": "Postman API fundamentals",
+          "type": "learning path"
+        },
+        {
+          "name": "Test Automation University courses",
+          "type": "learning path"
+        }
+      ],
+      "roadmapSummary": [
+        {
+          "phase": "Fundamentals",
+          "summary": "Test design, SQL and Git."
+        },
+        {
+          "phase": "Core stack",
+          "summary": "Scripting, UI and API automation."
+        },
+        {
+          "phase": "Portfolio",
+          "summary": "Two automated suites with reports."
+        },
+        {
+          "phase": "Job readiness",
+          "summary": "Certification, interview practice and applications."
+        }
+      ]
+    }
+  ]
+}
