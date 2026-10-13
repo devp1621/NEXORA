@@ -1,0 +1,813 @@
+{
+  "_note": "Skill catalog used for normalization. Aliases are editable examples, not an industry standard. Add aliases here to improve matching.",
+  "skills": [
+    {
+      "id": "html-css",
+      "name": "HTML & CSS",
+      "category": "Frontend",
+      "aliases": [
+        "html",
+        "css",
+        "html5",
+        "css3",
+        "html/css",
+        "html and css",
+        "html css",
+        "responsive design",
+        "flexbox",
+        "sass",
+        "tailwind",
+        "tailwind css",
+        "bootstrap"
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "aliases": [
+        "js",
+        "es6",
+        "ecmascript",
+        "javascript es6",
+        "vanilla js",
+        "vanilla javascript",
+        "typescript",
+        "ts"
+      ]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "aliases": [
+        "react.js",
+        "reactjs",
+        "react js",
+        "react native",
+        "next.js",
+        "nextjs",
+        "next js"
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Backend",
+      "aliases": [
+        "node",
+        "nodejs",
+        "node js",
+        "express",
+        "express.js",
+        "expressjs",
+        "express js"
+      ]
+    },
+    {
+      "id": "rest-apis",
+      "name": "REST APIs",
+      "category": "Backend",
+      "aliases": [
+        "rest",
+        "rest api",
+        "restful",
+        "restful api",
+        "restful apis",
+        "api development",
+        "api design",
+        "web apis"
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "Data & Databases",
+      "aliases": [
+        "mysql",
+        "postgres",
+        "postgresql",
+        "sqlite",
+        "sql server",
+        "mssql",
+        "oracle sql",
+        "sql databases",
+        "relational databases",
+        "rdbms",
+        "dbms"
+      ]
+    },
+    {
+      "id": "nosql",
+      "name": "NoSQL Databases",
+      "category": "Data & Databases",
+      "aliases": [
+        "mongodb",
+        "mongo",
+        "no sql",
+        "nosql",
+        "dynamodb",
+        "firestore",
+        "firebase",
+        "cassandra",
+        "document databases"
+      ]
+    },
+    {
+      "id": "git-github",
+      "name": "Git & GitHub",
+      "category": "Tooling",
+      "aliases": [
+        "git",
+        "github",
+        "gitlab",
+        "version control",
+        "git hub",
+        "bitbucket"
+      ]
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication",
+      "category": "Backend",
+      "aliases": [
+        "auth",
+        "jwt",
+        "oauth",
+        "oauth2",
+        "authentication and authorization",
+        "authorization",
+        "session management",
+        "login systems"
+      ]
+    },
+    {
+      "id": "docker-deploy",
+      "name": "Docker & Deployment",
+      "category": "Tooling",
+      "aliases": [
+        "docker",
+        "deployment",
+        "deploying apps",
+        "containers",
+        "containerization",
+        "ci/cd",
+        "cicd",
+        "heroku",
+        "vercel",
+        "netlify",
+        "kubernetes",
+        "aws deployment"
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Programming",
+      "aliases": [
+        "py",
+        "python3",
+        "python 3",
+        "python programming",
+        "python scripting"
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "category": "Math & Analysis",
+      "aliases": [
+        "stats",
+        "statistical analysis",
+        "probability",
+        "probability and statistics",
+        "probability & statistics",
+        "hypothesis testing",
+        "statistical inference"
+      ]
+    },
+    {
+      "id": "pandas-numpy",
+      "name": "Pandas & NumPy",
+      "category": "Data & Databases",
+      "aliases": [
+        "pandas",
+        "numpy",
+        "data wrangling",
+        "data manipulation",
+        "pandas numpy",
+        "dataframes",
+        "scipy"
+      ]
+    },
+    {
+      "id": "data-cleaning-eda",
+      "name": "Data Cleaning & EDA",
+      "category": "Math & Analysis",
+      "aliases": [
+        "eda",
+        "exploratory data analysis",
+        "data cleaning",
+        "data preprocessing",
+        "data preparation",
+        "data pre-processing",
+        "feature engineering"
+      ]
+    },
+    {
+      "id": "data-visualization",
+      "name": "Data Visualization",
+      "category": "Math & Analysis",
+      "aliases": [
+        "data viz",
+        "dataviz",
+        "matplotlib",
+        "seaborn",
+        "plotly",
+        "tableau",
+        "power bi",
+        "powerbi",
+        "visualization",
+        "charts",
+        "dashboards"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "ml",
+        "scikit-learn",
+        "scikit learn",
+        "sklearn",
+        "supervised learning",
+        "unsupervised learning",
+        "predictive modeling",
+        "predictive modelling",
+        "classification",
+        "regression",
+        "xgboost"
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning",
+      "category": "Machine Learning",
+      "aliases": [
+        "dl",
+        "neural networks",
+        "neural network",
+        "tensorflow",
+        "pytorch",
+        "keras",
+        "cnn",
+        "rnn",
+        "transformers"
+      ]
+    },
+    {
+      "id": "model-deployment",
+      "name": "Model Deployment",
+      "category": "Machine Learning",
+      "aliases": [
+        "mlops",
+        "ml deployment",
+        "model serving",
+        "streamlit",
+        "flask",
+        "fastapi",
+        "gradio",
+        "deploying models",
+        "model deployment"
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Networking Fundamentals",
+      "category": "Systems & Network",
+      "aliases": [
+        "networking",
+        "computer networks",
+        "computer networking",
+        "tcp/ip",
+        "tcp ip",
+        "osi model",
+        "dns",
+        "network protocols",
+        "subnetting",
+        "cisco networking",
+        "ccna",
+        "network fundamentals",
+        "wireshark",
+        "packet analysis"
+      ]
+    },
+    {
+      "id": "linux",
+      "name": "Linux",
+      "category": "Systems & Network",
+      "aliases": [
+        "ubuntu",
+        "kali",
+        "kali linux",
+        "unix",
+        "bash",
+        "shell",
+        "shell scripting",
+        "bash scripting",
+        "linux command line",
+        "command line",
+        "terminal",
+        "debian"
+      ]
+    },
+    {
+      "id": "security-fundamentals",
+      "name": "Security Fundamentals",
+      "category": "Security",
+      "aliases": [
+        "cybersecurity basics",
+        "cyber security",
+        "cybersecurity",
+        "information security",
+        "infosec",
+        "cia triad",
+        "security basics",
+        "security+",
+        "security plus",
+        "network security",
+        "threat modeling",
+        "threat modelling"
+      ]
+    },
+    {
+      "id": "cryptography",
+      "name": "Cryptography",
+      "category": "Security",
+      "aliases": [
+        "encryption",
+        "crypto",
+        "hashing",
+        "pki",
+        "tls",
+        "ssl",
+        "tls/ssl",
+        "aes",
+        "rsa",
+        "public key infrastructure",
+        "cryptography basics"
+      ]
+    },
+    {
+      "id": "web-security",
+      "name": "Web Application Security",
+      "category": "Security",
+      "aliases": [
+        "owasp",
+        "owasp top 10",
+        "owasp top ten",
+        "xss",
+        "sql injection",
+        "sqli",
+        "csrf",
+        "web security",
+        "application security",
+        "appsec",
+        "burp suite",
+        "burp"
+      ]
+    },
+    {
+      "id": "vuln-assessment",
+      "name": "Vulnerability Assessment",
+      "category": "Security",
+      "aliases": [
+        "vulnerability scanning",
+        "vulnerability management",
+        "nmap",
+        "nessus",
+        "openvas",
+        "penetration testing",
+        "pentesting",
+        "pen testing",
+        "ethical hacking",
+        "metasploit",
+        "vapt"
+      ]
+    },
+    {
+      "id": "siem-logs",
+      "name": "SIEM & Log Analysis",
+      "category": "Security Operations",
+      "aliases": [
+        "siem",
+        "splunk",
+        "log analysis",
+        "elk",
+        "elk stack",
+        "wazuh",
+        "qradar",
+        "sentinel",
+        "soc",
+        "security monitoring"
+      ]
+    },
+    {
+      "id": "incident-response",
+      "name": "Incident Response",
+      "category": "Security Operations",
+      "aliases": [
+        "ir",
+        "incident handling",
+        "incident management",
+        "digital forensics",
+        "dfir",
+        "forensics",
+        "malware analysis",
+        "threat hunting"
+      ]
+    },
+    {
+      "id": "cloud-security",
+      "name": "Cloud Security Basics",
+      "category": "Security",
+      "aliases": [
+        "cloud security",
+        "aws security",
+        "azure security",
+        "iam",
+        "identity and access management"
+      ]
+    },
+    {
+      "id": "testing-basics",
+      "name": "Software Testing",
+      "category": "Quality",
+      "aliases": [
+        "unit testing",
+        "jest",
+        "pytest",
+        "test cases",
+        "tdd",
+        "junit",
+        "manual testing",
+        "qa basics",
+        "software testing",
+        "test planning"
+      ]
+    },
+    {
+      "id": "test-automation",
+      "name": "Test Automation",
+      "category": "Quality",
+      "aliases": [
+        "selenium",
+        "cypress",
+        "playwright",
+        "automation testing",
+        "test automation",
+        "webdriver"
+      ]
+    },
+    {
+      "id": "api-testing",
+      "name": "API Testing",
+      "category": "Quality",
+      "aliases": [
+        "postman",
+        "api testing",
+        "rest assured",
+        "newman",
+        "contract testing"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "name": "Web Accessibility",
+      "category": "Frontend",
+      "aliases": [
+        "a11y",
+        "wcag",
+        "accessible design",
+        "aria",
+        "screen readers"
+      ]
+    },
+    {
+      "id": "web-performance",
+      "name": "Web Performance",
+      "category": "Frontend",
+      "aliases": [
+        "lighthouse",
+        "core web vitals",
+        "performance optimization",
+        "page speed",
+        "web vitals",
+        "bundle size"
+      ]
+    },
+    {
+      "id": "ui-design",
+      "name": "UI/UX Design",
+      "category": "Design",
+      "aliases": [
+        "figma",
+        "ui design",
+        "ux design",
+        "ui ux",
+        "wireframing",
+        "prototyping",
+        "adobe xd",
+        "user experience",
+        "user interface design"
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design",
+      "category": "Backend",
+      "aliases": [
+        "scalability",
+        "microservices",
+        "software architecture",
+        "load balancing",
+        "caching",
+        "redis",
+        "message queues",
+        "kafka",
+        "rabbitmq",
+        "distributed systems"
+      ]
+    },
+    {
+      "id": "database-design",
+      "name": "Database Design",
+      "category": "Backend",
+      "aliases": [
+        "schema design",
+        "normalization",
+        "indexing",
+        "orm",
+        "query optimization",
+        "sequelize",
+        "prisma",
+        "sqlalchemy",
+        "er diagrams"
+      ]
+    },
+    {
+      "id": "cicd-pipelines",
+      "name": "CI/CD Pipelines",
+      "category": "DevOps",
+      "aliases": [
+        "github actions",
+        "jenkins",
+        "pipelines",
+        "continuous integration",
+        "continuous delivery",
+        "gitlab ci",
+        "circleci"
+      ]
+    },
+    {
+      "id": "iac",
+      "name": "Infrastructure as Code",
+      "category": "DevOps",
+      "aliases": [
+        "terraform",
+        "infrastructure as code",
+        "ansible",
+        "cloudformation",
+        "pulumi",
+        "configuration management"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring & Observability",
+      "category": "DevOps",
+      "aliases": [
+        "prometheus",
+        "grafana",
+        "observability",
+        "logging",
+        "monitoring",
+        "alerting",
+        "datadog",
+        "new relic"
+      ]
+    },
+    {
+      "id": "cloud-platforms",
+      "name": "Cloud Platforms",
+      "category": "DevOps",
+      "aliases": [
+        "aws",
+        "azure",
+        "gcp",
+        "google cloud",
+        "cloud computing",
+        "ec2",
+        "s3",
+        "lambda",
+        "cloud services"
+      ]
+    },
+    {
+      "id": "excel-analytics",
+      "name": "Excel & Spreadsheets",
+      "category": "Analytics",
+      "aliases": [
+        "excel",
+        "spreadsheets",
+        "google sheets",
+        "pivot tables",
+        "advanced excel",
+        "vlookup",
+        "power query"
+      ]
+    },
+    {
+      "id": "business-analysis",
+      "name": "Business Analysis",
+      "category": "Analytics",
+      "aliases": [
+        "business analytics",
+        "kpis",
+        "business metrics",
+        "requirement gathering",
+        "stakeholder analysis",
+        "product analytics",
+        "a/b testing",
+        "ab testing"
+      ]
+    },
+    {
+      "id": "mobile-android",
+      "name": "Android Development",
+      "category": "Mobile",
+      "aliases": [
+        "android",
+        "kotlin",
+        "android studio",
+        "jetpack compose",
+        "java android",
+        "android sdk"
+      ]
+    },
+    {
+      "id": "mobile-cross",
+      "name": "Cross-platform Apps",
+      "category": "Mobile",
+      "aliases": [
+        "flutter",
+        "dart",
+        "cross platform",
+        "cross-platform apps",
+        "ionic",
+        "xamarin",
+        "kotlin multiplatform"
+      ]
+    },
+    {
+      "id": "app-publishing",
+      "name": "App Store Publishing",
+      "category": "Mobile",
+      "aliases": [
+        "play store",
+        "app store",
+        "app release",
+        "publishing apps",
+        "app signing",
+        "testflight"
+      ]
+    },
+    {
+      "id": "dsa",
+      "name": "Data Structures & Algorithms",
+      "category": "Programming",
+      "aliases": [
+        "data structures",
+        "algorithms",
+        "dsa",
+        "leetcode",
+        "competitive programming",
+        "problem solving practice",
+        "big o",
+        "complexity analysis"
+      ]
+    }
+  ],
+  "softSkills": [
+    {
+      "id": "communication",
+      "name": "Communication",
+      "aliases": [
+        "communications",
+        "verbal communication",
+        "written communication",
+        "presentation skills",
+        "public speaking",
+        "report writing"
+      ]
+    },
+    {
+      "id": "teamwork",
+      "name": "Teamwork",
+      "aliases": [
+        "team work",
+        "collaboration",
+        "team player",
+        "team collaboration",
+        "working in teams"
+      ]
+    },
+    {
+      "id": "problem-solving",
+      "name": "Problem Solving",
+      "aliases": [
+        "problem-solving",
+        "analytical thinking",
+        "analytical skills",
+        "troubleshooting",
+        "logical thinking"
+      ]
+    },
+    {
+      "id": "time-management",
+      "name": "Time Management",
+      "aliases": [
+        "time-management",
+        "planning",
+        "organization",
+        "organisation",
+        "prioritization",
+        "prioritisation"
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "name": "Critical Thinking",
+      "aliases": [
+        "critical-thinking",
+        "analytical reasoning",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "attention-to-detail",
+      "name": "Attention to Detail",
+      "aliases": [
+        "attention to details",
+        "detail oriented",
+        "detail-oriented",
+        "thoroughness",
+        "accuracy"
+      ]
+    },
+    {
+      "id": "adaptability",
+      "name": "Adaptability",
+      "aliases": [
+        "flexibility",
+        "adaptable",
+        "open to change"
+      ]
+    },
+    {
+      "id": "continuous-learning",
+      "name": "Continuous Learning",
+      "aliases": [
+        "curiosity",
+        "self learning",
+        "self-learning",
+        "quick learner",
+        "fast learner",
+        "lifelong learning",
+        "learning agility",
+        "willingness to learn"
+      ]
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "aliases": [
+        "technical writing",
+        "documenting",
+        "writing documentation"
+      ]
+    },
+    {
+      "id": "ethics-integrity",
+      "name": "Ethics & Integrity",
+      "aliases": [
+        "ethics",
+        "integrity",
+        "professional ethics",
+        "ethical conduct",
+        "responsibility"
+      ]
+    }
+  ]
+}
